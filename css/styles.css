@@ -14,22 +14,16 @@ a {
 
 .header .logo {
   font-family: 'Raleway', sans-serif;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
 .header .accent {
-  font-family: 'Raleway', sans-serif;
-  color: #4d5ae5;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .menu-header {
@@ -40,8 +34,16 @@ a {
   color: #2e2f42;
 }
 
-.contact-link {
+.menu-header:hover,
+.menu-header:focus {
+  color: #404bbf;
+}
+
+.contact {
   font-style: normal;
+}
+
+.contact-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -49,14 +51,9 @@ a {
   color: #434455;
 }
 
-.menu-header:hover,
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
-}
-
-.menu-header:focus {
-  color: #404bbf;
-  text-decoration: underline;
 }
 
 .section-main {
@@ -66,7 +63,7 @@ a {
 .title-main {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -82,17 +79,38 @@ a {
   cursor: pointer;
 }
 
-.section-main .button:hover {
+.section-main .button:hover,
+.section-main .button:focus {
   background-color: #404bbf;
+}
+
+.list-theses .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.list-theses .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .title-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.list-team {
+  background-color: #ffffff;
 }
 
 .list-team .title {
@@ -123,10 +141,11 @@ a {
 .title-portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .list-portfolio .title {
@@ -150,22 +169,16 @@ a {
 
 .footer .logo {
   font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
 }
 
 .footer .accent {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer .text {
